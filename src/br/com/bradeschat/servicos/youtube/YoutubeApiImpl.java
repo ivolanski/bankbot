@@ -6,12 +6,12 @@ public class YoutubeApiImpl extends YoutubeBotApi{
 
 	@Override
 	protected String getApiKey() {
-		return "AIzaSyAr8exQvUWTitc8qWoZq11MLRz2Q20bMbY";
+		return "xxxxxxxxxxx";
 	}
 
 	@Override
 	protected String getChannel() {
-		return "UCwVzFkXszeP__iWXNV2EjhA";
+		return "xxxxxxxxx";
 	}
 	
 	

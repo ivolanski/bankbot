@@ -57,7 +57,7 @@ public class FacebookBotImpl extends FacebookBot {
 
 	@Override
 	protected String getBotToken() {
-		return "EAALVYMZAJJnYBALDIitjfRDZA1KGZBfwJgh3JCZBRFwapCZAQ4e9sTU2806bCxRFBZBKGmry1u374pRzZAZBbZAdXMKzLwGZB8bI6EuHiwZAaT9Q37RQjhPuw3yZC0veIVwKSW2t6ps6rEYfc6BlhEm5MFnJWQFvRubav7ZAiwHnIcw1zyQZDZD";
+		return "";
 
 	
 	}
