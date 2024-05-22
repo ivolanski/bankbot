@@ -1,0 +1,89 @@
+.appBackground {
+    background-image: url(../images/background_login.png);
+    background-size: cover;
+    padding: 0 80px;
+    margin: 0;
+}
+.logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.logo img {
+    width: 150px;
+    padding: 30px 20px 15px 20px;
+    box-sizing: content-box;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -webkit-text-security: disc;
+}
+.ddnTitular .btn-default {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    text-align: left;
+}
+.ddnTitular .dropdown-menu {
+    background-color: #F0F0F0;
+    border-top: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+.ddnTitular .dropdown-menu li {
+    padding: 5px 0;
+}
+.loginForm .form-group p {
+    margin-bottom: -2px;
+}
+
+.termosUso {
+    padding: 15px 0 20px 0;
+}
+
+.btnRedBra {
+    height: 53px;
+    padding: 0;
+    border-width: 0 !important;
+    border-radius: 0 10px 0 10px !important;
+    box-shadow: none !important;
+}
+
+/*--- Bootstrap Overwrite ---*/
+.ddnTitular .btn-default.active.focus, 
+.ddnTitular .btn-default.active:focus, 
+.ddnTitular .btn-default.active:hover, 
+.ddnTitular .btn-default:active.focus, 
+.ddnTitular .btn-default:active:focus, 
+.ddnTitular .btn-default:active:hover, 
+.open>.dropdown-toggle.btn-default.focus, 
+.open>.dropdown-toggle.btn-default:focus, 
+.open>.dropdown-toggle.btn-default:hover {
+    background-color: transparent;
+    border-color: #66afe9;
+    outline: none;
+}
+
+.form-control:focus {
+    -webkit-box-shadow: none;
+}
+
+@media (max-width: 375px) {
+    .appBackground {
+        padding: 0 50px;
+    }
+}
+@media (max-width: 320px) {
+    .appBackground {
+        padding: 0 30px;
+    }
+}
