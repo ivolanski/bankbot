@@ -1,2 +1,2 @@
 # bankbot
-A bank telegram bot interface
+Bank functions inside Telegram POC
